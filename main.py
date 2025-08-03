@@ -7,6 +7,8 @@ st.set_page_config(page_title="Sumate como socio aportante", layout="centered")
 # Leer parámetro de la URL
 
 query_params = st.query_params
+st.write("Query params:", st.query_params)
+st.write("Embajadores disponibles:", list(embajadores.keys()))
 embajador_key = query_params.get("embajador", [None])[0]
 
 if not embajador_key or embajador_key not in embajadores:
