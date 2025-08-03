@@ -1,7 +1,7 @@
 embajadores = {
     "marcos": {
-        "nombre": "Marcos Julianes",
-        "mensaje": "Marcos es parte de este sueño. Acompañalo con tu aporte.",
+        "nombre": "Virreyes Rugby Club",
+        "mensaje": "Acompañanos con tu aporte",
         "imagen": "assets/vrc.jpg",
         "links": {
             "20000": "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=3e7c560d62804fd29bc355b9096b186f",
@@ -11,8 +11,8 @@ embajadores = {
         }
     },
     "jorge": {
-        "nombre": "Jorge Dartidelongue",
-        "mensaje": "Jorge cree en el club. Sumate a apoyarlo.",
+        "nombre": "Virreyes Rugby Club",
+        "mensaje": "Acompañanos con tu aporte",
         "imagen": "assets/vrc.jpg",
         "links": {
             "20000": "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=8f16a0eceadd46499830d5dbfe32d5a0",
