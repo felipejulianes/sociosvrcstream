@@ -2,7 +2,7 @@ embajadores = {
     "marcos": {
         "nombre": "Marcos Julianes",
         "mensaje": "Marcos es parte de este sueño. Acompañalo con tu aporte.",
-        "imagen": "assets/vrc.jpg",
+        "imagen": "vrc.jpg",
         "links": {
             "20000": "https://mp.marcos/20k",
             "40000": "https://mp.marcos/40k",
@@ -13,7 +13,7 @@ embajadores = {
     "jorge": {
         "nombre": "Jorge Dartidelongue",
         "mensaje": "Jorge cree en el club. Sumate a apoyarlo.",
-        "imagen": "assets/vrc.jpg",
+        "imagen": "vrc.jpg",
         "links": {
             "20000": "https://mp.jorge/20k",
             "40000": "https://mp.jorge/40k",
