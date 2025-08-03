@@ -16,7 +16,7 @@ if not embajador_key or embajador_key not in embajadores:
 data = embajadores[embajador_key]
 
 st.title("Sumate como socio aportante")
-st.image(data["imagen"], use_column_width=True)
+st.image(data["imagen"], use_container_width=True)
 st.subheader(data["nombre"])
 st.write(data["mensaje"])
 
