@@ -20,7 +20,7 @@ st.image(data["imagen"], use_container_width=True)
 st.subheader(data["nombre"])
 st.write(data["mensaje"])
 
-st.markdown("Tu aporte mensual nos permite seguir entrenando, alimentando y acompañando.")
+st.markdown("Hacé posible que un joven siga disfrutando del rugby. Con tu aporte ayudás a cubrir parte de la cuota de quien hoy no puede afrontarla y promovés su formación deportiva y personal.")
 st.markdown("## Elegí un monto para donar")
 
 col1, col2 = st.columns(2)
