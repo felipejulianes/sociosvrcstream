@@ -2,10 +2,10 @@ embajadores = {
     "marcos": {
         "nombre": "Marcos Julianes",
         "mensaje": "Marcos es parte de este sueño. Acompañalo con tu aporte.",
-        "imagen": "vrc.jpg",
+        "imagen": "assets/vrc.jpg",
         "links": {
-            "20000": "https://mp.marcos/20k",
-            "40000": "https://mp.marcos/40k",
+            "20000": "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=3e7c560d62804fd29bc355b9096b186f",
+            "40000": "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=3edf23beb4ac42b7b18d83e45c21eca7",
             "60000": "https://mp.marcos/60k",
             "libre": "https://mp.marcos/libre"
         }
@@ -13,12 +13,12 @@ embajadores = {
     "jorge": {
         "nombre": "Jorge Dartidelongue",
         "mensaje": "Jorge cree en el club. Sumate a apoyarlo.",
-        "imagen": "vrc.jpg",
+        "imagen": "assets/vrc.jpg",
         "links": {
-            "20000": "https://mp.jorge/20k",
-            "40000": "https://mp.jorge/40k",
-            "60000": "https://mp.jorge/60k",
-            "libre": "https://mp.jorge/libre"
+            "20000": "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=8f16a0eceadd46499830d5dbfe32d5a0",
+            "40000": "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=3edf23beb4ac42b7b18d83e45c21eca7",
+            "60000": "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c5e114b8e9a45c38aab4976fa1ef948",
+            "libre": "https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=cf4c3778ee6942aea7f4333bde705f61"
         }
     }
 }
