@@ -5,7 +5,7 @@ import urllib.parse
 st.set_page_config(page_title="Sumate como socio aportante", layout="centered")
 
 # Leer parámetro de la URL
-query_params = st.experimental_get_query_params()
+query_params = st.query_params
 embajador_key = query_params.get("embajador", [None])[0]
 
 if not embajador_key or embajador_key not in embajadores:
