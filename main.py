@@ -13,12 +13,21 @@ st.markdown("""
         h1, h2, h3, h4, h5, h6, p, div, span {
             color: white !important;
         }
-        .stButton button {
+        .stButton>button {
+            background-color: white !important;
             color: black !important;
             font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            padding: 0.6rem 1.2rem;
+        }
+        .stButton>button:hover {
+            background-color: #fbca0c !important;
+            color: black !important;
         }
     </style>
 """, unsafe_allow_html=True)
+
 
 # Leer parámetro de la URL
 
