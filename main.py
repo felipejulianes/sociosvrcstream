@@ -19,8 +19,9 @@ st.image(data["imagen"], use_container_width=True)
 st.subheader(data["nombre"])
 st.write(data["mensaje"])
 
-st.markdown("Hacé posible que un joven siga disfrutando del rugby. Con tu aporte ayudás a cubrir parte de la cuota de quien hoy no puede afrontarla y promovés su formación deportiva y personal.")
+st.markdown("Más de 600 chicos entrenan y estudian en el club gracias al aporte de personas como vos. Hacé posible que un joven siga disfrutando del rugby. Con tu aporte ayudás a cubrir parte de la cuota de quien hoy no puede afrontarla y promovés su formación deportiva y personal.")
 st.markdown("## Elegí un monto para donar")
+st.markdown('<div class="footer">El link redirige al sitio de donación segura a través de Mercado Pago. Podés cancelarla cuando quieras.</div>', unsafe_allow_html=True)
 
 col1, col2 = st.columns(2)
 with col1:
