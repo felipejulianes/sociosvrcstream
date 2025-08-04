@@ -10,21 +10,31 @@ st.markdown("""
             background-color: #237d33 !important;
             color: white !important;
         }
+
         h1, h2, h3, h4, h5, h6, p, div, span {
             color: white !important;
         }
-        .stButton>button {
+
+        /* Forzar botones horizontales iguales */
+        .stButton button {
             background-color: white !important;
             color: black !important;
-            font-weight: bold;
-            border: none;
-            border-radius: 8px;
-            padding: 0.6rem 1.2rem;
+            font-weight: bold !important;
+            border: none !important;
+            border-radius: 8px !important;
+            padding: 0.6rem 1.2rem !important;
             width: 100% !important;
-            height: 3rem;
+            height: 3rem !important;
+            font-size: 1.1rem !important;
         }
-        .stButton>button:hover {
+
+        .stButton button:hover {
             background-color: #fbca0c !important;
+            color: black !important;
+        }
+
+        /* Extra: prevenir que el texto blanco sobrescriba botones */
+        a, .stLinkButton {
             color: black !important;
         }
     </style>
