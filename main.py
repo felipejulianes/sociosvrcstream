@@ -33,6 +33,12 @@ with col2:
 
 st.caption("Gracias por confiar en lo que hacemos ❤️")
 
-st.image("logovrc.png", width=100)
+st.markdown(
+    f"<div style='text-align: center; margin-top: 2rem;'>"
+    f"<img src='logovrc.png' width='100'>"
+    f"</div>",
+    unsafe_allow_html=True
+)
+
 
 
