@@ -25,7 +25,7 @@ st.markdown("## Elegí un monto para donar")
 
 col1, col2 = st.columns(2)
 with col1:
-    st.link_button("$20.000", data["links"]["20000"])
+    st.link_button("$20K", data["links"]["20000"])
     st.link_button("$60.000", data["links"]["60000"])
 with col2:
     st.link_button("$40.000", data["links"]["40000"])
