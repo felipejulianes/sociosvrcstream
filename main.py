@@ -33,9 +33,8 @@ with col2:
 
 st.caption("Gracias por confiar en lo que hacemos ❤️")
 
-col = st.columns(3)[1]
-with col:
-    st.image("logo vrc.png", width=100)
+st.image("logo vrc.png", width=100)
+
 
 
 
