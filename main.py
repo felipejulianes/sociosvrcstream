@@ -20,6 +20,8 @@ st.markdown("""
             border: none;
             border-radius: 8px;
             padding: 0.6rem 1.2rem;
+            width: 100% !important;
+            height: 3rem;
         }
         .stButton>button:hover {
             background-color: #fbca0c !important;
@@ -27,6 +29,7 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
+
 
 
 # Leer parámetro de la URL
