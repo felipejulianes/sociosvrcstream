@@ -4,18 +4,21 @@ import urllib.parse
 
 st.set_page_config(page_title="Sumate como socio aportante", layout="centered")
 
-# Forzar fondo verde institucional
 st.markdown("""
     <style>
-        body {
+        body, .stApp {
             background-color: #237d33 !important;
+            color: white !important;
         }
-        .stApp {
-            background-color: #237d33 !important;
+        h1, h2, h3, h4, h5, h6, p, div, span {
+            color: white !important;
+        }
+        .stButton button {
+            color: black !important;
+            font-weight: bold;
         }
     </style>
 """, unsafe_allow_html=True)
-
 
 # Leer parámetro de la URL
 
