@@ -33,7 +33,7 @@ with col2:
 
 st.caption("Gracias por confiar en lo que hacemos ❤️")
 
-st.image("logo vrc.png", width=100)
+st.image("logovrc.png", width=100)
 
 
 
