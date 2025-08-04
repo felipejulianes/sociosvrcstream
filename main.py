@@ -33,12 +33,9 @@ with col2:
 
 st.caption("Gracias por confiar en lo que hacemos ❤️")
 
-st.markdown(
-    f"<div style='text-align: center; margin-top: 2rem;'>"
-    f"<img src='logovrc.png' width='100'>"
-    f"</div>",
-    unsafe_allow_html=True
-)
+col = st.columns(3)[1]
+with col:
+    st.image("logo vrc.png", width=100)
 
 
 
